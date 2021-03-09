@@ -571,6 +571,9 @@ header {
   }
 }
 @media screen and (max-width: 905px) {
+  body {
+    padding: 0px;
+  }
   header {
     height: 120vh;
   }
