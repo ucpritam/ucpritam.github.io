@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Pritam Majumder portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucpritam/ucpritam.github.io.git"
+  },
+  "author": "Pritam Majumder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ucpritam/ucpritam.github.io/issues"
+  },
+  "homepage": "https://github.com/ucpritam/ucpritam.github.io#readme"
+}
