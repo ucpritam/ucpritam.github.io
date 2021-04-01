@@ -374,7 +374,7 @@ header{
     background-image: url(../assets/images/portfolio3.png);
 }
 .portfolio .pi4{
-    background-image: url(portfolio4.png);
+    background-image: url(../assets/images/portfolio4.png);
 }
 
 .portfolio .img::before{
