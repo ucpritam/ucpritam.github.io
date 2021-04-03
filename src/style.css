@@ -365,7 +365,7 @@ header{
 }
 
 .portfolio .pi1{
-    background-image: url(portfolio1.png);
+    background-image: url(../assets/images/portfolio1.png);
 }
 .portfolio .pi2{
     background-image: url(portfolio2.png);
