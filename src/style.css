@@ -292,6 +292,7 @@ header{
     color: var(--white);
 }
 .skill h2{
+    height: 50px;
     font-size: 20px;
     margin: 0px 30px 20px 30px;
     text-transform: uppercase;
@@ -311,6 +312,24 @@ header{
     margin-bottom: 10px;
     font-size: 30px;
     color: var(--primary);
+}
+
+.skill ul {
+    display: inline-block;
+}
+
+.skill li {
+    text-align: left;
+    list-style: none;
+}
+  
+.skill li::before {
+    content: "\2022";
+    color: var(--primary);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
 }
 
 .portfolio {
@@ -666,6 +685,7 @@ header{
     .section-desc{
         width: 300px;
     }
+
     .skill-container{
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: minmax(100px, auto);
