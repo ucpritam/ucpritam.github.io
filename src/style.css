@@ -304,6 +304,11 @@ header{
     font-size: 30px;
     color: var(--primary);
 }
+
+.portfolio {
+    width: 30vw;
+}
+
 .portfolio-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -664,7 +669,7 @@ header{
     grid-auto-rows: minmax(100px, auto);
     }
     .portfolio{
-        width: 300px;
+        width: 270px;
         margin-bottom: 10px;
     }
     .services-container{
