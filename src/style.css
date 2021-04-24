@@ -480,8 +480,9 @@ header{
 
 /* Icons */
 .icon-button i {
+    text-decoration: none;
+    color: var(--primary);
 	background: none;
-	color: white;
 	height: 2.6rem;
 	left: 0;
 	line-height: 2.6rem;
@@ -495,30 +496,10 @@ header{
 	z-index: 10;
 }
 
-.icon-button .icon-twitter {
-    text-decoration: none;
-	color: var(--primary);
-}
-.icon-button .icon-github {
-    text-decoration: none;
-	color: var(--primary);
+.icon-button i:hover {
+    color: var(--secondary);
 }
 
-.icon-button .icon-linkedin {
-    text-decoration: none;
-	color: var(--primary);
-}
-
-
-
-
-
-.icon-button:hover .icon-twitter,
-.icon-button:hover .icon-github,
-.icon-button:hover .icon-linkedin
- {
-	color: var(--secondary);
-}
 
 @media all and (max-width: 680px) {
   .icon-button {
@@ -538,6 +519,7 @@ header{
 
   /* Icons */
   .icon-button i {
+      color: var(--primary);
 	  height: 1.6rem;
 	  line-height: 1.6rem;
 	  width: 1.6rem;
@@ -620,7 +602,7 @@ header{
 
       .icon-button {
           font-size: 2rem;
-          margin: 40px 12px;
+          margin: 40px 10px;
       }
 
     .night, .day {
