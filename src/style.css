@@ -4,7 +4,7 @@
     --white:#fff;
     --gray:#333;
     --primary:#8BFBFF;
-    --secondary:#FB38C8;
+    --secondary:#ffffff;
     --third:#FF602A;
 
     
@@ -25,7 +25,7 @@ body.dark{
     --black:#fff;
     --white:#000;
     --gray:#333;
-    --secondary:#8BFBFF;
+    --secondary:#000;
     --primary:#11b98f;
     --third:#FF602A;
 }
@@ -39,6 +39,15 @@ a{
 li{
     list-style: none;
 }
+.social {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+  }
 .pre-loader{
     position: absolute;
     width: 100vw;
@@ -436,6 +445,113 @@ header{
 .sec-dis{
     display: flex;
 }
+
+.icon-button {
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.5rem;
+	height: 2.6rem;
+	line-height: 2.6rem;
+	margin: 0 20px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 2.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 2.6rem;
+	left: 0;
+	line-height: 2.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 2.6rem;
+	z-index: 10;
+}
+
+.icon-button .icon-twitter {
+    text-decoration: none;
+	color: var(--primary);
+}
+.icon-button .icon-github {
+    text-decoration: none;
+	color: var(--primary);
+}
+
+.icon-button .icon-linkedin {
+    text-decoration: none;
+	color: var(--primary);
+}
+
+
+
+
+
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-github,
+.icon-button:hover .icon-linkedin
+ {
+	color: var(--secondary);
+}
+
+@media all and (max-width: 680px) {
+  .icon-button {
+    border-radius: 1.6rem;
+    font-size: 0.8rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  .icon-button:hover span {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 1.6rem;
+    margin: -0.8rem;
+  }
+
+  /* Icons */
+  .icon-button i {
+	  height: 1.6rem;
+	  line-height: 1.6rem;
+	  width: 1.6rem;
+  }
+  body {
+
+	  padding: 10px;
+  }
+  .pinterest {
+   display: none; 
+  }
+
+}
+
 @keyframes rotate {
     from{
         transform: rotate(0deg);
@@ -497,6 +613,15 @@ header{
         font-family: 'popins' ,sans-serif;
         transform: translateY(230px) translateX(-50px) rotate(90deg);
     }
+
+    .social {
+        position: relative;
+      }
+
+      .icon-button {
+          font-size: 2rem;
+          margin: 40px 12px;
+      }
 
     .night, .day {
         top: 18px;
