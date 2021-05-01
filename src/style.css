@@ -107,6 +107,7 @@ header{
     user-select: none;
 }
 .navbar ul {
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     margin-left: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -169,7 +170,7 @@ header{
     letter-spacing: 5px;
 }
 .heading p{
-    font-family: ui-monospace,SFMono-Regular,SF Mono,Consolas,Liberation Mono,Menlo,monospace;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     margin-bottom: 30px;
     font-size: 1.1rem;
     color: var(--white);
