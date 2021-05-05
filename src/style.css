@@ -143,15 +143,16 @@ header{
     flex-basis: 50%;
 }
 .heading h3{
-    color: #6b6b6b;
-    font-size: 40px;
+    color: #909090;
+    font-size: 20px;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: bold;
 }
 .heading h1{
     line-height: 40px;
     font-size: 50px;
-    letter-spacing: -4px;
+    letter-spacing: -3px;
+    font-weight: bold;
     text-transform: uppercase;
     color: var(--white);
     margin-bottom: 20px;
@@ -445,6 +446,13 @@ header{
 @media screen and (max-width:905px) {
     header{
         height: 120vh;
+    }
+    .heading h1{
+        font-size: 40px;
+    }
+    .heading h4 {
+        font-size: 13px;
+        font-weight: 600;
     }
     .navbar {
         padding: 20px 40px;
