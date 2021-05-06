@@ -405,13 +405,12 @@ header{
 }
 .contact-form input{
     margin-bottom: 10px;
-    height: 30px;
+    height: 50px;
     padding: 10px;
     outline: none;
     color: var(--white);
     background-color: transparent;
     border: 1px solid var(--white);
-    border-radius: 30px;
     display: block;
     width: 400px;
 }
@@ -423,7 +422,6 @@ header{
     outline: none;
     background-color: transparent;
     border: 1px solid var(--white);
-    border-radius: 10px;
     display: block;
     width: 400px;
     width: 400px;
