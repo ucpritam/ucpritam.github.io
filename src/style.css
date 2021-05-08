@@ -168,13 +168,15 @@ header{
     letter-spacing: 5px;
 }
 .heading p{
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Consolas,Liberation Mono,Menlo,monospace;
     margin-bottom: 30px;
+    font-size: 1.1rem;
     color: var(--white);
 }
 .btn{
-    width: 165px;
-    height: 35px;
-    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
     border: none;
     position: relative;
     font-weight: 600;
@@ -192,7 +194,6 @@ header{
     top: 0;
     left: 0;
     transform: translateX(-100px) rotate(45deg);
-    background-color: var(--secondary);
     transition: transform 0.3s;
 }
 .btn:after{
@@ -203,7 +204,6 @@ header{
     top: 0;
     left: 0;
     transform: translateX(-110px) rotate(45deg);
-    background-color: var(--primary);
     transition: transform 0.3s;
 }
 .btn:hover{
