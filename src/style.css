@@ -221,7 +221,7 @@ header{
 .header-img {
     position: absolute;
     right: 0;
-    margin-right: 20px;
+    margin-right: 100px;
     flex-basis: 45%;
 }
 
