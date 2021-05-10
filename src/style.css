@@ -26,7 +26,7 @@ body.dark{
     --white:#000;
     --gray:#333;
     --secondary:#8BFBFF;
-    --primary:#385cfb;
+    --primary:#11b98f;
     --third:#FF602A;
 }
 body.overflow{
@@ -140,7 +140,6 @@ header{
     margin-top: 60px;
 }
 .heading{
-    margin-top: 30px;
     flex-basis: 50%;
 }
 .heading h3{
@@ -218,15 +217,21 @@ header{
 .btn:hover::after{
     transform: translateX(110px) rotate(45deg);
 }
-.header-img{
-    flex-basis: 50%;
+
+.header-img {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    flex-basis: 45%;
 }
+
 .header-img img{
+    width: 350px;
     border-radius: 50%;
-    width: 300px;
 }
 
 .effects span{
+    display: none;
     width: 50px;
     height: 50px;
     position: absolute;
@@ -515,9 +520,13 @@ header{
         margin-top: 30px;
         flex-basis: 100%;
     }
+    .header-img {
+        position: relative;
+        margin: 0px;
+        flex-basis: 50%;
+    }
    
     .header-img img {
-        border-radius: 50%;
         width: 200px;
         margin-top: 50px;
     }
