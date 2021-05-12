@@ -55,6 +55,7 @@ li{
     animation: rotate  2s linear infinite;
 }
 .day{
+    position: fixed;
     top: 38px;
     right: 40px;
     z-index: 10;
@@ -73,6 +74,7 @@ li{
 }
 .night{
     display: none;
+    position: fixed;
     top: 38px;
     right: 40px;
     z-index: 10;
@@ -133,9 +135,8 @@ header{
 .row{
     display: none;
     width: auto;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 60px;
-    justify-content: center;
 }
 .heading{
     margin-top: 30px;
@@ -498,10 +499,9 @@ header{
     }
     
     .row{
-        flex-direction: column-reverse;
         text-align: center;
-        height: 100vh;
         margin: 0 40px;
+        justify-content: center;
     }
     .heading h1{
         line-height: 40px;
@@ -512,7 +512,7 @@ header{
     }
     .heading{
         margin: 0;
-        margin-top: 50px;
+        margin-top: 30px;
         flex-basis: 100%;
     }
    
@@ -521,9 +521,7 @@ header{
         width: 200px;
         margin-top: 50px;
     }
-    .sec-dis{
-        display: block;
-    }
+
     .effects span:nth-child(2){
         display: none;
     }
