@@ -136,6 +136,7 @@ header{
     display: none;
     width: auto;
     margin-left: 100px;
+    margin-right: 100px;
     margin-top: 60px;
 }
 .heading{
@@ -149,7 +150,7 @@ header{
     font-weight: 900;
 }
 .heading h1{
-    line-height: 20px;
+    line-height: 40px;
     font-size: 50px;
     letter-spacing: -4px;
     text-transform: uppercase;
@@ -168,7 +169,6 @@ header{
     letter-spacing: 5px;
 }
 .heading p{
-    width: 80%;
     margin-bottom: 30px;
     color: var(--white);
 }
@@ -223,7 +223,7 @@ header{
 }
 .header-img img{
     border-radius: 50%;
-    width: 370px;
+    width: 300px;
 }
 
 .effects span{
