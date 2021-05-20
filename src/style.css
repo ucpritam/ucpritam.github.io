@@ -223,8 +223,8 @@ header{
     flex-basis: 50%;
 }
 .header-img img{
+    border-radius: 50%;
     width: 370px;
-    transform: translateY(50px);
 }
 
 .effects span{
@@ -499,6 +499,10 @@ header{
         opacity: 1;
         z-index: 100;
     }
+
+    .sec-dis{
+        display: block;
+    }
     
     .row{
         flex-direction: column-reverse;
@@ -519,8 +523,10 @@ header{
         flex-basis: 100%;
     }
    
-    .header-img img{
+    .header-img img {
+        border-radius: 50%;
         width: 200px;
+        margin-bottom: 50px;
     }
     .effects span:nth-child(2){
         display: none;
