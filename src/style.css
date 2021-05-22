@@ -487,6 +487,12 @@ header{
         font-family: 'popins' ,sans-serif;
         transform: translateY(230px) translateX(-50px) rotate(90deg);
     }
+
+    .night, .day {
+        top: 18px;
+        right: 85px;
+    }
+
     .ham-btn {
         display: block;
         opacity: 1;
