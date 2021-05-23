@@ -63,6 +63,11 @@ li{
     background-color: transparent;
     cursor: pointer;
 }
+
+.day:focus{ 
+    outline-style: none; 
+}
+
 .day i{
     font-size: 30px;
     color: var(--white);
@@ -76,6 +81,9 @@ li{
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+.night:focus{ 
+    outline-style: none; 
 }
 .night i{
     font-size: 30px;
