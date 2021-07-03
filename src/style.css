@@ -269,6 +269,7 @@ header{
     color: var(--white);
 }
 .section .section-desc{
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     text-align: center;
     color: var(--white);
 }
@@ -367,6 +368,7 @@ header{
     opacity: 1;
 }
 .portfolio .img p{
+    font-weight: 500;
     width: 80%;
     z-index: 1;
     opacity: 0;
